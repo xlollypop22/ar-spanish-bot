@@ -1,0 +1,68 @@
+{
+  "vocab": [
+    {
+      "word": "laburo",
+      "translation": "работа",
+      "examples": [
+        "Tengo laburo hoy. — Сегодня я работаю.",
+        "Busco laburo. — Я ищу работу.",
+        "Mucho laburo. — Очень много работы."
+      ],
+      "phrases": [
+        "laburo en negro — работа без оформления",
+        "me salió un laburito — подвернулась подработка"
+      ]
+    },
+    {
+      "word": "quilombo",
+      "translation": "бардак / хаос",
+      "examples": [
+        "Es un quilombo. — Это полный бардак.",
+        "Se armó un quilombo. — Начался хаос.",
+        "Qué quilombo… — Ну и бардак…"
+      ],
+      "phrases": [
+        "hacer un quilombo — устроить бардак",
+        "un quilombo bárbaro — жуткий хаос"
+      ]
+    }
+  ],
+  "life_phrase": [
+    {
+      "phrase": "¿Qué hacés?",
+      "translation": "Как дела?",
+      "examples": [
+        "¿Qué hacés? — Bien, ¿y vos? — Как дела? — Норм, а ты?",
+        "¿Qué hacés hoy? — Nada, tranqui. — Что делаешь сегодня? — Да так, спокойно."
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "title": "В Аргентине говорят vos (не tú)",
+      "rule": "vos + tenés / querés / hablás (ударение обычно на последний слог)",
+      "examples": [
+        "Vos tenés razón. — Ты прав(а).",
+        "¿Vos querés café? — Ты хочешь кофе?"
+      ],
+      "note": "Не пугайся: это просто местная форма, её слышно везде."
+    }
+  ],
+  "daily_check": [
+    {
+      "title": "Проверка дня",
+      "questions": [
+        {
+          "q": "Как правильно по-аргентински?",
+          "options": ["vos hablas", "vos hablás"],
+          "answer_index": 1
+        },
+        {
+          "q": "Как сказать «Я ищу работу» (BA)?",
+          "options": ["Busco laburo", "Busco trabajo"],
+          "answer_index": 0
+        }
+      ]
+    }
+  ]
+}
