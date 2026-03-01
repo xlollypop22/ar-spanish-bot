@@ -1,33 +1,42 @@
-import os, requests
-
-TG_BOT_TOKEN = os.environ["TG_BOT_TOKEN"]
-TG_CHAT_ID = os.environ["TG_CHAT_ID"]
-
 def format_caption(card: dict) -> str:
+    term = (card.get("term") or "").strip()
+    tr = (card.get("translation_ru") or "").strip()
+    note = (card.get("note_ru") or "").strip()
+
     lines = []
-    lines.append(f"🧉 <b>{card['term']}</b> — {card['translation_ru']}".strip())
-    lines.append("")
-    for ex in card["examples"]:
-        lines.append(f"• {ex}")
-    lines.append("")
-    lines.append("<b>Ещё варианты:</b>")
-    for c in card["collocations"]:
-        lines.append(f"• {c}")
-    if card.get("note_ru"):
+    lines.append(f"🧉 <b>Слово (AR):</b> <b>{term}</b>")
+    if tr:
+        lines.append(f"Это значит: <b>{tr}</b>")
+    lines.append("")  # пустая строка
+
+    ex = card.get("examples") or []
+    if ex:
+        lines.append("📌 <b>Примеры:</b>")
+        for e in ex[:3]:
+            es = (e.get("es") or "").strip()
+            ru = (e.get("ru") or "").strip()
+            if es:
+                lines.append(f"• {es}")
+            if ru:
+                lines.append(f"→ {ru}")
         lines.append("")
-        lines.append(f"💡 {card['note_ru']}")
-    return "\n".join(lines)
 
-def send_photo(caption: str, photo_path: str):
-    url = f"https://api.telegram.org/bot{TG_BOT_TOKEN}/sendPhoto"
-    with open(photo_path, "rb") as f:
-        files = {"photo": f}
-        data = {"chat_id": TG_CHAT_ID, "caption": caption, "parse_mode": "HTML"}
-        r = requests.post(url, data=data, files=files, timeout=60)
-    r.raise_for_status()
+    col = card.get("collocations") or []
+    if col:
+        lines.append("🔹 <b>Ещё варианты:</b>")
+        for c in col[:4]:
+            es = (c.get("es") or "").strip()
+            ru = (c.get("ru") or "").strip()
+            if es:
+                lines.append(f"• {es}")
+            if ru:
+                lines.append(f"→ {ru}")
+        lines.append("")
 
-def send_message(text: str):
-    url = f"https://api.telegram.org/bot{TG_BOT_TOKEN}/sendMessage"
-    data = {"chat_id": TG_CHAT_ID, "text": text, "parse_mode": "HTML"}
-    r = requests.post(url, data=data, timeout=60)
-    r.raise_for_status()
+    if note:
+        lines.append("💬 <b>Заметка:</b>")
+        lines.append(note)
+
+    # Telegram HTML: убедимся, что длина не улетает сильно
+    text = "\n".join(lines).strip()
+    return text[:3900]
