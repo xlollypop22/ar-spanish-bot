@@ -1,0 +1,1663 @@
+#separator:tab
+#html:true
+#tags column:3
+¿Puede repetir más despacio?	Можете повторить помедленнее?	
+¿Qué es esto?	Что это?	
+¿Dónde está el restaurante?	Где находится ресторан?	
+Quisiera comer algo	Я хотел бы что-нибудь съесть	
+¿Cuánto es?	Сколько это стоит?	
+Me llamo Ruslan	Меня зовут Руслан	
+¿Puede ayudarme, por favor?	Не могли бы мне помочь, пожалуйста?	
+Me he perdido	Я потерялся	
+el baño	Туалет	
+¿Cuánto vale esto?	Сколько это стоит?	
+¡Salud!	Здоровье(тост)	
+Encantado	Приятно познакомиться	
+¡Buenas tardes!	Добрый день!	
+¡Hasta luego!	До скорой встречи!	
+¡Hasta mañana!	До завтра!	
+¡Bienvenido!	Добро пожаловать!	
+Avión	Самолет	
+Bicicleta	Велосипед	
+Casa	Дом	
+Dedo	Палец	
+Estrella	Звезда	
+Flor	Цветок	
+Guitarra	Гитара	
+Helado	Мороженное	
+Isla	Остров	
+Jirafa	Жираф	
+Kilo	Килограмм (весы)	
+Lápiz	Карандаш	
+Manzana	Яблоко	
+Naranja	Апельсин	
+Ojos	Глаза	
+Pez	Рыба	
+Queso	Сыр	
+Ratón	Мышь	
+Sol	Солнце	
+Teléfono	Телефон	
+Uva	Виноград	
+Vaca	Корова	
+Web	Интернет	
+Zapatos	Туфли	
+El abecedario	Алфавит	
+Química	Химия	
+Coche	Автомобиль	
+Cuchillo	Нож	
+Cereza	Черешня	
+Cine	Кино	
+Zorro	Лиса	
+Zumo	Сок	
+Gato	Кот	
+Guerra	Война	
+Gorra	Кепка	
+Guantes	Перчатки	
+Jardín	Сад	
+Gente	Люди	
+Joyas	Ювелирные изделия	
+Justicia	Справедливость	
+Pin<u>gú</u>ino	Пингвин	
+Bebé	Ребенок	
+Biberón	Бутылочка для кормления	
+Vaso	Стакан	
+Viento	Ветер	
+Vino	Вино	
+Hijos	Дети	
+Hospital	Больница	
+Hotel	Отель	
+Churro	Чурос	
+Leche	Молоко	
+Ocho	Восемь	
+alrededor	Вокруг	
+Árbol	Дерево	
+Cara	Дорогой	
+Carro	Машина	
+Pera	Груша	
+Perro	Собака	
+Río	Река	
+Rosa	Розовый	
+¿De donde eres?	Откуда ты?	
+Bienvenido!	Добро пожаловать!	
+vivir	жить, существовать, переживать	
+<strong>¿De dónde eres?</strong>&nbsp;	Откуда вы?	
+Ser	быть	
+<strong>¿Qué lenguas hablas?</strong>	На каком языке ты говоришь?	
+hablar	говорить	
+un poco de inglés	немного по английски	
+El idioma	язык	
+Cero	Ноль	
+Uno	Один	
+Dos	Два	
+Tres	Три	
+Cuatro	Четыре	
+Cinco	пять	
+Seis	шесть	
+Siete	Семь	
+Nueve	Девять	
+Diez	Десять	
+Once	Одинадцать	
+Doce	Двенадцать	
+Trece	Тринадцать	
+Catorce	Четырнадцать	
+Quince	Пятнадцать	
+Dieciséis	Шестнадцать	
+Diecisiete	Семнадцать	
+Dieciocho	Восемнадцать	
+Diecinueve	Девятнадцать	
+Veinte	Двадцать	
+Qué hora es?	Который час?	
+Son las doce en punto.	Двенадцать часов ровно	
+media	половина&nbsp;	
+Son las siete menos cuarto.	Без пятнадцати семь.	
+Son las cuatro y cuarto.	Пятнадать минут пятого.	
+Son las ocho y media	Половина девятого	
+vecino	сосед	
+deportista	спортсмен	
+el esposo	муж	
+la esposa	жена	
+barco	корабль	
+cine	кино	
+cena	ужин	
+carne	мясо	
+copa	кубок	
+curar	лечить	
+claro	светлый	
+chico	парень	
+dormir	спать	
+negro	черный	
+fecha	число	
+gente	люди	
+gimnasia	зарядка	
+gorro	шапка	
+gafas	очки	
+guantes	перчатки	
+grupo	группа	
+guerra	война	
+guitarra	гитара	
+generoso	великодушный&nbsp;	
+gènero	род	
+fuego	огонь	
+golpe	удар	
+cercano	близкий	
+andar	ходить	
+beca	стипендия	
+bueno	хороший	
+agudo	острый	
+cuando	когда	
+arena	песок	
+boca	рот	
+cielo	небо	
+estrecho	узкий	
+frotar	тереть	
+diente	зуб	
+pecho	грудь	
+estar sentado	сидеть	
+este	этот	
+estrella	звезда	
+palo	палка	
+сuello	шея	
+allí	&nbsp;там	
+árbol	дерево	
+lluvia	дождь	
+niebla	туман	
+importante	важный	
+año	год	
+montaña	гора	
+matar	убивать	
+bosque	лес	
+pequeño	маленький	
+venir	приходить	
+mojado	мокрый	
+kilómetro	километр	
+rojo	красный	
+mujer	женщина	
+jugar&nbsp;	играть	
+hueso	кость	
+marido	муж	
+pájaro	птица	
+viejo	старый	
+tierra	земля	
+tres	три	
+río	река	
+saber	знать	
+sentir	чувствовать	
+sol	солнце	
+cuatro	четыре	
+cinco	пять	
+seis	шесть	
+siete	семь	
+ocho	восемь	
+nueve	девять	
+diez	десять	
+doce	двенадцать	
+catorce	четырнадцать	
+quince	пятнадцать	
+dieciséis	шеснадцать	
+veinte	двадцать	
+vientidós	двадцать один	
+treinta	тридцать	
+cuarenta	сорок	
+cincuenta	пятьдесят	
+sesenta	шестьдесят	
+setenta	семьдесят	
+ochenta	восемьдесят	
+noventa	девяносто	
+cien	сто	
+quinientos	пятьсот	
+novecientos	девятьсот	
+millión	миллион	
+setecientos	семьсот	
+cero	ноль	
+presente de indicativo	Настоящее время	
+cantar	петь	
+beber	пить	
+escribir	писать	
+llevar	нести	
+buscar	искать	
+dibujar	рисовать	
+<strong>permitir</strong>	разрешать	
+<strong>ayudar</strong>	помогать	
+temer	боятся	
+bailar	танцевать	
+trabajar	работать	
+saltar	прыгать	
+ac<strong>o</strong>rdar	вспоминать	
+apr<strong>o</strong>bar	сдать	
+enc<strong>o</strong>ntrar	найти	
+m<strong>o</strong>ver	двигаться	
+j<strong>u</strong>gar	играть	
+res<strong>o</strong>lver	решать проблему	
+s<strong>o</strong>ler	иметь обыкновение	
+s<strong>o</strong>nar	звучать	
+s<strong>o</strong>ñar	мечтать	
+v<strong>o</strong>lver	возвращаться	
+pedir	просить	
+com<strong>e</strong>nzar	начинать	
+pensar	думать	
+preferir	предпочитать	
+reir	смеяться	
+repetir	повторять	
+seguir	следовать	
+sentarse	садиться	
+sonreir	улыбаться	
+<strong>despedir</strong>	увольнять	
+<strong>despedirse</strong>	прощаться	
+llamarse	зваться	
+"<span style=""color: rgb(0, 67, 115); background-color: rgb(255, 255, 0);"">algo vale</span><span style=""color: rgb(0, 67, 115); background-color: rgb(255, 255, 255);"">&nbsp;</span><span style=""color: rgb(0, 67, 115); background-color: rgb(255, 255, 255);"">la</span><span style=""color: rgb(0, 67, 115); background-color: rgb(255, 255, 255);"">&nbsp;</span><span style=""color: rgb(0, 67, 115); background-color: rgb(255, 255, 255);"">pena</span>"	что-то стоит свеч	
+Billetera Ecologica	Экологичный кошелек	
+Toalla	полотенце	
+repasador	полотно для посуды	
+"<span style=""color: rgb(31, 31, 31); background-color: rgb(255, 255, 255);"">delantal</span>"	фартук	
+<div>Voy a la playa</div>	Идти на пляж	
+<div>Vas a la terminal</div>	<div>ты идешь на автовокзал</div>	
+<div>Va a la tienda (al kiosco)</div>	<div>он/она/Вы идет в магазин</div>	
+<div>¿Adónde?</div>	Куда?	
+dar	давать	
+a	на, в	
+de	из,с	
+regresar	возвращать	
+<div>la película de los animales</div>	фильм о животных	
+en	<div>в (внутри чего-то), на(на чем-то)</div>	
+haz lo digo y no lo que hago	делай то что я говорю а не то что я делаю	
+Dentro de/en	через	
+Hacer deporte	заниматься спортом	
+Navegar por Internet	сидеть в интернете	
+la música electrónica	электронная музыка	
+ir a karaokes	Ходить в караоке	
+aprender los idiomas	Изучать языки	
+Ir en bicicleta	Ездить на велосипеде	
+conocer gente nueva	Знакомиться с новыми людьми	
+<div>Regreso de la escuela</div>	<div>возвращаюсь из школы</div>	
+<div>Para + infinitivo</div>	чтобы	
+<div>Me gustaría apuntarme a</div>	<div>Мне бы хотелось записаться на</div>	
+<div>¿Qué horario tiene?</div>	"
+
+
+
+
+
+
+<p class=""p1"">Какое расписание?</p>"	
+<div>¿Cuánto cuesta?</div>	<div>Сколько стоит?</div>	
+<div>Me conviene</div>	<div>Мне подходит</div>	
+<div>Necesito pensar más</div>	<div>Мне нужно подумать</div>	
+<div>la pasión</div>	страсть	
+salir a un bar	тусоваться в баре	
+emocionante	эмоциональным быть	
+un poco de todo	всего по чуть-чуть	
+juntarme con amigos	встречаться с друзьями	
+pescar	рыбачить	
+pesca	рыбалка	
+sobre todo	especialmente	
+especialmente	особенно	
+por supuesto	конечно	
+Me gusta acampar en la naturaleza	Мне нравится кемпинг на природе	
+dentro de un poco	скоро	
+<div>cansado</div>	уставший	
+<div>siguiente</div>	следующий	
+"
+
+
+
+
+
+
+<p class=""p1"">la gente</p>"	люди	
+<div>ciudad</div>	город	
+<div>el viernes</div>	пятница	
+<div>el vidrio</div>	стекло	
+<div>grande</div>	большой	
+<div>Cuál es tu dirección?</div>	Какой у тебя адрес?	
+<div>Busco</div>	я ищу	
+<div>Quiero</div>	я хочу	
+tomar	брать	
+<div>Qué te parece</div>	&nbsp;что ты думаешь насчет	
+feo	некрасивый	
+<div>bárbaro</div>	круто	
+<div>genial excelente perfecto</div>	великолепно	
+<div>cuaderno</div>	тетрадь	
+<div>incómodo</div>	неудобный	
+<div>Qué pena!</div>	Как жаль	
+<div>¿de qué color?</div>	Какого цвета?	
+<div>un peluche</div>	плющевая игрушка	
+<div>el molde</div>	формачка	
+las ojotas	шлепки	
+útil	полезный	
+grueso	толстый (про вещи), теплый	
+el buzo	толстовка	
+<div>alquiler</div>	аренда	
+un poco	чуть-чуть	
+el mozo	официант	
+la duda	сомнение	
+terminar	заканчивать	
+la opción	вариант, выбор	
+decime	скажи мне	
+<div>estación del año</div>	время года	
+visitar	посещать	
+<div>una reunión</div>	встреча	
+<div>felicitaciones</div>	поздравление	
+<div>Un montón (de)</div>	много	
+<div>la campera</div>	куртка, пиджак	
+<div>Joya</div>	здорово	
+<div>estar dormido</div>	быть сонным	
+<div>es obvio</div>	очевидно	
+normalmente	обычно	
+llegar	приезжать, прибывать	
+llegar tarde	задерживаться	
+te toca	твоя очередь	
+<div>estar jubilado</div>	быть пенсионером	
+joven	молодой	
+<div><b>&nbsp;Vamos a</b></div>	<div><b>Давай(те) сделаем что-то</b></div>	
+<div>andar en bici</div>	кататься на велосипеде	
+<div>no te preocupes</div>	не переживай	
+<div>la vida</div>	жизнь	
+<div><b>Tener que + inf</b></div>	я должен	
+<div>durante</div>	в течение	
+hacer	делать	
+tocar	трогать	
+agotado	уставший	
+luchar	бороться	
+<div>boliche</div>	дискотека	
+<div>esperar</div>	ждать	
+<div>aprender a inf</div>	учиться что-то	
+ganar	выигрывать	
+<div>manejar</div>	водить	
+<div>el contrato de alquiler</div>	контракт на аренду	
+<div>tener una reunión</div>	иметь встречу	
+<div>empresa</div>	фирма	
+<div>el somier</div>	кровать на матрасе	
+<div>los juegos infantiles/ la plaza de juegos</div>	детская площадка	
+<div>la plaza de máquinas</div>	спорт площадка	
+sacar	доставать, добывать	
+siempre	всегда	
+<div>el ajedrez</div>	шахматы	
+entrada	входной билет	
+<div>una vez</div>	раз	
+<div>nada</div>	ничего	
+<div>los sábados</div>	по субботам	
+<div>el sábado</div>	в субботу	
+<div>dos veces а</div>	два раза в	
+<div>tiempo libre</div>	свободное время	
+<div>el fin de semana</div>	конец недели	
+<div>el cuchillo</div>	нож	
+<div>el tenedor</div>	вилка	
+<div>a el aire libre</div>	на свежем воздухе	
+<div>trucho</div>	<div>фальшивый, фэйковый</div>	
+el partido	матч, игра	
+<div>un pasaje</div>	билет	
+<div>ida y vuelta</div>	туда и обратно	
+<div>el resultado</div>	результат	
+<div>apagar</div>	выключать	
+encender	включать	
+<div>un bosque</div>	лес	
+<div>lleno</div>	полный, сытый	
+<div>contar</div>	считать	
+<div>el aire acondicionado</div>	кондиционер	
+<div>analgésticos</div>	обезболивающее	
+invitar	приглашать	
+<div>desde</div>	с какого-то периода	
+<div>ancho</div>	широкий	
+<div>pileta de natación</div>	плавательный бассеин	
+<div>antiguo</div>	древний	
+ruido	шум	
+<div>estacionamiento</div>	парковка	
+<div>por eso</div>	поэтому	
+<div>amplio</div>	просторный	
+<div>en el horario ruso</div>	<div>по времени России</div>	
+<div>la oficina</div>	офис	
+<div>un periódico</div>	газета	
+<div>&nbsp;la limpieza</div>	уборка	
+<div>conversar</div>	болтать	
+charlar	беседовать	
+Todavía	все еще	
+<div>inseguro</div>	небезопасный	
+<div>calentar</div>	греть&nbsp;	
+pasar	проходить	
+el negocio	бизнес	
+crear	создавать	
+les	им	
+<div>mejorar</div>	улучшать	
+<div>desarrollo</div>	развитие	
+<div>conocer amigos</div>	познакомиться с друзьями	
+<div>el conservatorio</div>	консерватория	
+<div>parecido</div>	похожий	
+<div>a menudo</div>	часто	
+<div>hacer la mudanza</div>	делать переезд	
+<div>anterior</div>	предыдущий	
+<div>subir</div>	подниматься	
+<div>estar ocupado</div>	быть занятым	
+<div>estar libre</div>	быть свободным	
+<div>volar</div>	летать	
+<div>poner la mesa</div>	накрывать на стол	
+<div>hacer fila/cola</div>	стоять в очереди	
+el empleado	сотрудник	
+<div>la inmunidad</div>	иммунитет	
+<div>neumonía</div>	пневмония	
+<div>llueve&nbsp;</div>	дождь	
+<div>ventaja y desventaja</div>	преимущества и недостаток	
+aun	до сих пор	
+<div>trabajar con pesas</div>	<div>работать с весами</div>	
+<div>Las afueras</div>	пригороды	
+<div><b>coincidir</b></div>	совпадать	
+<div>festejar</div>	отмечать	
+celebrar	праздновать	
+<div>empezar</div>	начинать	
+<div>Dentro de un poco</div>	скоро	
+rara vez	редко	
+a veces	иногда	
+a seguido	часто	
+bajo	низкий	
+tonto	глупый	
+raro	странный	
+estar acostado	лежать	
+estar de pie	стоять	
+es preciosa	прелестная	
+es un encanto de verdad	он действительно очаровательный	
+súper alegre	супер веселый	
+mucho le gusta jugar con todo el mundo	ему очень нравится играть со всеми	
+estar retirado	быть в отставке или на пенсии	
+ama de casa	домохозяйка	
+sedentario	малоподвижный	
+maja	милая	
+dudar	сомневаться	
+aquel/aquella	Тот/та	
+Estoy de acuerdo	Я согласен&nbsp;	
+Los familiares	семья	
+cuñado	брат или сестра моей пары	
+mejor	лучший	
+mi mejor dia	мой лучший день	
+se puede	можно	
+no se puede	нельзя	
+estado civil	гражданский статус	
+calvo	лысый	
+la madre	мама	
+el padre	отец	
+Los padres	родители	
+Hijo/a	сын/дочь	
+Abuelo/a	дедушка/бабушка	
+Hermano/a	брат/сестра	
+El tío/a	дядя/тетя	
+Primo/a	двоюродный брат/сестра	
+Sobrino/a	племянник/племянница	
+Nieto/a	Внук/внучка	
+Novio/a	Парень/девушка	
+Pajera	пара	
+El marido/esposo	муж	
+Estar casado/a	быть женатым, замужем	
+Estar soltero/a	быть не в отношениях	
+Estar separado/a (con)	Не проживать вместе (с)	
+Estar divorciado/a (de)	быть в разводе	
+Estar enamorado/a (de)	быть влюбленным	
+El matrimonio	супружеская пара	
+el higo	инжир	
+la barba	борода	
+el bigote	усы	
+las canas	седина	
+los lados	вески/бока	
+el pelo	волосы	
+largo	длиный	
+corto	короткий	
+rizado	кудрявый	
+ondulado	волнистый	
+liso	прямой	
+rubio	светлый	
+castaño	коричневый	
+pelirrojo	рыжий	
+moreno	темный	
+los ojos	глаза	
+la hoja	листок	
+La nariz	нос	
+nariz aguileña	нос с горбинкой	
+nariz griega	греческий нос	
+alto	высокий	
+gordo	полный	
+delgado	худой	
+llevar lentes	носить очки	
+llevar barba/bigote	носить бороду/усы	
+ser aficionado a&nbsp;	быть любителем чего-то	
+me apasiona	меня очень увлекает	
+numerosa	многочисленная	
+la inmobiliaria	агентство недвижимости	
+trabaja de gerente	работа управляющим	
+jardín de infantes	детский сад	
+la planta/fábrica	фабрика	
+jubilados	пенсионеры	
+la falta de oxígeno	нехватка кислорода	
+revisar	проверить	
+Qué pena/lástima	как жаль	
+Enviar/Mandar	отправлять	
+recordar	помнить	
+nevar	идти (о снеге)	
+esquiar	кататься на лыжах	
+este/esta	этот/эта	
+aquel / aquella	тот/та	
+mantrimonio	брак	
+pelado	лысый	
+peludo	волосатый	
+<strong>camión de bomberos</strong>	пожарная машина	
+Fin de la historia	конец истории	
+divorcio	развод	
+boda	свадьба	
+estoy de acuerdo	я согласен	
+todavía	все еще	
+poner	поставь/включи	
+disponible	свободен (стол/я для тебя )	
+la trenza	косички	
+los cachetes	щеки	
+los aretes	серьги	
+la bruja	колдунья	
+las cejas	брови	
+buceo	дайвинг	
+bucear	заниматься дайвингом	
+el proceso	процесс	
+estar apurado	торопиться	
+rábano	редис	
+ciruela	слива	
+Me importa un rábano	Мне до лампочки	
+Quedar hecho una ciruela pasa	Стать как чернослив (букв. превратиться в сушёную сливу).	
+Dormir como una ciruela	Спать очень крепко	
+Esa excusa no vale una ciruela.	Эта отмазка гроша ломаного не стоит	
+búho	сова	
+lechuza	маленькая сова с плоским лицом	
+Ser un búho	быть совой	
+Qué quilombo	Какой бардак!	
+<strong>¡Boludo!</strong>	чувак	
+¡Qué macana!	Вот облом! Как жаль!	
+¡Mirá vos, cualquiera!	Ну надо же, бред полный!	
+<div>Increíble, ¿En serio? ¿Posta?</div>	Невероятно, Реально? Правда?	
+<div><b>¡</b>Es horrible!</div>	Ужасно	
+<div>Terrible</div>	круто	
+<div>tremendo</div>	Ужасно	
+<div>Dale,de una</div>	<div>да, без сомнения</div>	
+"<div>&nbsp;¡Copado! ¡Genial! ¡Piola! ¡Joya!</div>
+<div>¡Buenísimo!</div>"	<div>Круто!</div>	
+<div>¡Nada que ver! ¡Cualquiera!</div>	<div>да ладно тебе!, это совсем не так</div>	
+<div>¡Qué pena!</div>	Как жаль!	
+<div>¡Qué bajón (garrón)!</div>	Как плохо!	
+<div>Mirá vos</div>	<div>Ух ты, ого, вот это да.</div>	
+<div><b>¡</b>Qué lindo!</div>	<div>Как красиво, мило</div>	
+<div>Listo</div>	<div>Идет, договорились</div>	
+la naturaleza	природа	
+el lugar	место	
+casi	почты	
+los datos	данные	
+la peleta	бассеин	
+la ciencia	наука	
+Me parece que/Yo creo que	мне кажется	
+el tambor	барабан	
+el sabor	вкус	
+la vaca	корова	
+la proa	носовая часть корабля	
+el repartidor	курьер, доставщик	
+llego tarde	опаздываю	
+la sala de reuniones	переговорная, зал для совещаний	
+los compañeros de trabajo	коллеги по работе	
+cometer errores	совершать ошибки	
+tener hambre	быть голодным	
+después	после	
+el tiempo	время	
+reconocer	распознавать	
+el pulpo	осьминог	
+morado	фиолетовый	
+el cuello	шея	
+ayer	вчера	
+la semana siguiente	следующая неделя	
+la cara	лицо	
+ver	видеть	
+esconder	прятать	
+en todas partes	везде	
+estar	быть, находиться	
+recibir	получать	
+divertido	веселый	
+más barato	дорого	
+cuesta	стоит	
+el chiste	шутка	
+la suerte	удача	
+la edad	возраст	
+la capa	мантия	
+estar feliz	быть счастливым	
+el pueblo/ la aldea	деревня	
+rústico	деревенский	
+el poblerino	деревенщина	
+olvidar	забывать	
+las películas	фильмы	
+aprender	учиться	
+comprender	понимать, пробовать	
+intentar	пытаться, стараться	
+más caro	дороже	
+más rápido	быстрее	
+gritar	кричать	
+llorar	плакать	
+peligroso	опасный	
+estornudar	чихать	
+el alacrán	скорпион	
+no es seguro	это не точно	
+el catarro	простуда	
+el invierno	зима	
+la primavera	весна	
+el verano	лето	
+el otoño	осень	
+sabroso&nbsp;	вкусный	
+obligar	заставлять	
+así es la vida	такова жизнь	
+la habilidad	навык, умение	
+después de	после	
+arrastrar	тащить, вытягивать	
+regalar	дарить	
+los dispositivos	устройства, гаджеты	
+quedar con amigos	встречаться с друзьями	
+el albaricoque	абрикос	
+considerarse	считать себя	
+ojalá desaparezca todo el mundo	хоть бы все исчезли	
+se me ha olvidado	я забыл	
+la conversación	беседа, разговор	
+sobre	о	
+las metas	цели	
+se me fue la palabra	я забыл слово	
+los paseos	прогулки	
+me da energía	дает мне энергию	
+<strong>gasta mi energía</strong>	тратит мою энергию	
+gastar	тратить	
+llenar	наполнять	
+un hecho interesante	интересный факт	
+me parecen curiosas	мне кажутся любопытными	
+casarse de penalti	жениться по залету	
+ir viento en popa	идти полным ходом, продвигаться в чем-то	
+la levadura	дрожжи	
+seco	сухой	
+<strong>un balón de fútbol</strong>	футбольный мяч	
+la pared	стена	
+un posit	стикер	
+<strong>cambiar el horario</strong>	поменять расписание	
+jugar a los dardos	играть в дартс	
+estar sentado en una silla	сидеть на стуле	
+<strong>un café / un cafecito / una taza de café</strong>	чашка кофе	
+jugar al billar	играть в бильярд	
+vomitar	рвать	
+salir del bar	выйти из бара	
+puede ser	может быть	
+a lo mejor	может быть	
+mirar qué pasa en el bar	смотреть что происходит в баре	
+relajarse en el sofá	отдыхать на диване	
+abrazarse = ellos se abrazan	обниматься	
+pensar en algo	думать о чем-то	
+pelearse	драться	
+una cara loca	сумасшедшее лицо	
+patinar sobre el hielo	кататься на коньках	
+odiar	ненавидеть	
+creo que/yo pienso que/me parece que	мне кажется что	
+sí, yo estoy de acuerdo	я согласен	
+la música extranjera	зарубежная музыка	
+los auriculares/los audífonos	наушники	
+<strong>más frecuentemente</strong>	чаще	
+¿con qué frecuencia?	как часто?	
+es una historia chistosa	смешная история	
+perdido	потерянный	
+las firmas	подписи	
+¿cuáles son tus preferencias deportivas?	какие у тебя спортивные предпочтения?	
+en el colegio	в школе	
+aceptar	принимать	
+<strong>los demás</strong>	остальные, другие	
+me gustaría	я хотел бы	
+&nbsp;las personas que admirar	люди, которых стоит восхищаться	
+<strong>poco a poco</strong>	постепенно	
+romper la rutina	ломать рутину	
+salvar	спасать	
+el culo	зад (жопа)	
+amor	любовь	
+comprensión&nbsp;	понимание	
+enamoramiento	влюбленность	
+corazón	сердце	
+ramo	букет	
+regalo	подарок	
+poema	стихотворение	
+postal	открытка	
+vela	свеча	
+verso	стих	
+cena romántica	романтический ужин	
+cita	свидание	
+cupido	купидон	
+bombones	конфеты	
+enamorarse	влюбиться	
+abrazar	обнимать	
+dar un abrazo	обнять	
+dar un beso	поцеловать	
+juntos	вместе	
+ternura	нежность	
+solter	холостой	
+cursi	сладкий	
+el estado	государство	
+estoy despierdo	я бодрствую	
+navigar for Internet	искать в интернете	
+desarrollar	развивать	
+Menos mál!&nbsp;	Ну и хорошо!	
+<div><b>hacerse la sueca</b></div>	делать из себя дурочку	
+"<div><span style=""color: rgb(0, 0, 0);"">Salir para adelante</span></div>"	выбраться из трудной ситуации	
+<div>Sacar adelante</div>	Тащить проект вперед	
+la próxima vez	в следующий раз	
+enólogo	технолог по вину	
+la radiografía	рентген	
+delantero	передний, нападающий в футболе	
+trasero	задний, задница	
+pilela	горшок для детей	
+Navego por Internet cada	сидеть в интернете каждый день	
+Hay	есть	
+Ellos juegan al fútbol todos los findes	Они играют в футбол каждые выходные.	
+Miro las películas cada finde.	Я смотрю фильмы каждые выходные.	
+el tratamiento	лечение	
+las enfermedades	болезни	
+el/la hincha	фанат/болельщик	
+<div><b>Más </b>+ прилагательное + que</div>	больше	
+<div><b>Menos </b>+ прилагательное + que</div>	меньше	
+mayor	старший&nbsp;	
+menor	младший	
+peor	хуже	
+<div><b>La motocicleta/ la moto</b></div>	мотоцикл	
+<div><b>El colectivo/ el bondi/ el micro&nbsp;</b></div>	автобус	
+<div><b>La bicicleta/ la bici</b></div>	велосипед	
+<div><b>El tren / El subte</b></div>	поезд	
+<div><b>El avión</b></div>	самолет	
+<div>Ir en</div>	ехать на транспорте	
+<div>Ir a pie</div>	идти пешком	
+<div>ir andando</div>	идти пешком	
+caro	дорогой	
+rápido	быстрый	
+Práctico	практичный	
+interesante	интересный	
+Seguro	безопасный	
+Cómodo	удобный	
+Ecológico	экологичный	
+Lento	медленный	
+¿En qué transporte preferís ir?	На каком транспорте ты предпочитаешь ездить?	
+¿Cómo vas al trabajo / a la universidad?	Как ты добираешься на работу / в университет?	
+<div>Soler** + inf&nbsp;</div>	<div>делать что-то по обыкновению</div>	
+<div>la costanera</div>	набережная	
+<div>caluroso&nbsp;</div>	жаркий	
+<div>Estar a mil</div>	иметь тысячу дел	
+<div>la fachada</div>	фасад	
+las golosinas	сладости	
+meter	засовывать	
+<div>rechazar&nbsp;</div>	отвергать отказать + существительное	
+producir (zco)	производить	
+<div>&nbsp;me, te, le quedar</div>	<div>&nbsp;1) Оставаться (у нас остается час, у тебя осталось 1000 2) подходить про одежду</div>	
+<div>&nbsp;intentar / tratar <b>de </b>+ inf&nbsp;</div>	стараться, пытаться	
+repito	я повторяю	
+<div>Seguido</div>	часто	
+<div>Cada cuánto?</div>	Как часто?	
+<div>Qué tan seguido?&nbsp;</div>	Как часто?	
+<div><b>tener miedo de/a</b></div>	бояться чего-то	
+<div>tener que</div>	мне нужно/ я должен	
+<b>pueblo</b>	село, поселок	
+<div>menos mal</div>	Ну и хорошо	
+los/las	их (кого/что)	
+antes	до (как понимание)	
+hasta	до какого-то периода	
+la terraza	терасса	
+<strong>ómnibus</strong>	международный автобус	
+<strong>cheto / cheta</strong>	богатенький, мажор, пафосный	
+voy a ver a mi amigo	я иду увидеть моего друга	
+voy a lo de mi cliente	я иду туда, что связано с моим другом	
+voy a la casa de mi amigo	Я иду домой к моему другу	
+<strong>jugar a + deporte/juego</strong>	играть во что-то	
+la cancha	поле	
+la garganta	горло	
+almorzar	обедать	
+<strong>quedar (me, te, le, nos, les)</strong>	оставаться/подходить (чему-то)	
+lugar = sitio	место	
+lugar/sitio	место	
+&nbsp;complicado	сложный запутанный	
+<div>camioneta</div>	пикап	
+<div>la velocidad</div>	скорость	
+<div>las pantuflas</div>	тапочки	
+<div>las medias</div>	носки	
+infusionar	заваривать (чай, кофе)	
+damasco	абрикос	
+dátil	финик	
+todo lo mismo	всё одно и то же	
+enseñar	учить кого-то	
+construir	строить	
+me ocupo de	я чем-то занимаюсь	
+<strong>tan solo</strong>	скоро	
+es feriado	праздничные дни	
+al lado de	рядом, сбоку	
+<strong>El living&nbsp;</strong>	Гостинная	
+el taller	мастерская	
+<strong>diferenciar / distinguir</strong>	<em>различать, отличать</em>	
+Está + nombre?	Этот человек тут?	
+<strong>estar seguro (de)</strong>	<em>быть уверенным (в чём-то)</em>	
+un cuarto de baño.	одна ванная комната	
+El dátil	финик	
+El damasco	абрикос	
+Infusionar el té / las hierbas	заваривать чай или травы.	
+Todo lo mismo.	Всё одно и то же	
+para invitados	для гостей	
+baño principal	основная ванная	
+hacer cola	стоять в очереди	
+conmigo	со мной	
+<div>Primero</div>	первый	
+<div>Segundo</div>	Второй	
+<div>Tercero</div>	Третий	
+<div>Cuarto</div>	Четвертый	
+<div>Quinto</div>	Пятый	
+<div>Sexto</div>	Шестой	
+<div>Séptimo</div>	Седьмой	
+<div>Octavo</div>	Восьмой	
+<div>Noveno</div>	Девятый	
+<div>Décimo</div>	Десятый	
+<div>HAY QUE + Infinitivo&nbsp;</div>	"<div>Мы обращаемся не к кому-то</div>
+<div>конкретно, а в общем: «нужно», «необходимо», «следует»</div>"	
+<div>Deber + Infinitivo</div>	<div>личная конструкция долженствования. Более строгая и обязательная</div>	
+<div>Es necesario + Infinitivo</div>	<div>безличная конструкция, переводится, как “необходимо”</div>	
+<div>(Me, te, le) hace falta + Infinitivo</div>	"<div>конструкция, которая может быть безличной и личной.</div>
+<div>Переводится, как “необходимо”</div>"	
+<div>De caballero</div>	Мужской	
+<div>De señora</div>	<div>женский</div>	
+<div>La campera</div>	куртка	
+<div>La remera</div>	рубашка	
+<div>La camisa</div>	рубашка/футболка	
+<div>El buzo/el suéter</div>	кофта	
+<div>El pantalón</div>	штаны	
+<div>El pantalón corto</div>	шорты	
+<div>Las bermudas</div>	шорты с ремнем	
+<div>Las botas</div>	ботинки	
+<div>La pollera</div>	юбка	
+<div>Las zapatillas deportivas</div>	кроссовки	
+<div>Oferta</div>	выгодное предложение	
+hablantes nativos.	носители языка	
+actitud positiva	позитивный настрой	
+experiencia	опыт	
+enfocarse en uno mismo.	сосредоточтесь на себе	
+<strong>antes</strong>	<em>раньше / до / перед этим</em>	
+Lentes de so	<em>Солнечные очки</em>	
+<strong>¿No tiene otros más baratos?</strong>	У вас есть что подешевле?	
+<strong>El precio está rebajado.</strong>	Цена со скидкой	
+<strong>Me los llevo.</strong>	Я беру	
+Puedo probármelos	Могу примерить?	
+probarse algo	примерять&nbsp;	
+me siento mal	чувствую себя плохо	
+<strong>el estado de ánimo</strong>	настроение	
+morder	кусать	
+<strong>ir de vacaciones</strong>	поехать в отпуск	
+hábita	привычка	
+<div>&nbsp;alcanzar a inf&nbsp;</div>	<div>успевать что-то</div>	
+<div>alcanzar</div>	<div>догонять, достигать, достать</div>	
+<div>por primera/segunda vez</div>	впервые и во второй раз	
+<div>estudios</div>	исследования	
+<div>toser</div>	кашлять	
+<div>estoy seguro EN mi amigo / EN esta información</div>	я уверен в ком-то/в чем-то	
+<div>el cansancio&nbsp;</div>	усталость	
+<div>un castillo&nbsp;</div>	замок	
+una cita	прием	
+tratar de	пытаться	
+dejar de&nbsp;	бросать прекращать что-то делать	
+dejar	позволять что-то делать	
+<strong>Pasarla bien</strong>	устойчивое выражение проводить время хорошо	
+compartir	делиться, разделять (интересы взгляды)	
+sonreír	улыбаться	
+me/te/le cae(n) bien/mal	нравиться/не нравиться (про человека)	
+superar	превосходить/преодолевать	
+alojamiento	расположение	
+alojarse	размещаться (в отеле)	
+el silencio	тишина	
+disfrutar de	наслаждаться	
+una galleta	печенье	
+una ensalada	салат	
+ponerse a (inf)	приступать к чему-то	
+peinarse	рассчесываться	
+me/te/le da asco	мне противно	
+fracasar	проваливать (экзамент например)	
+resulta que&nbsp;	оказалось, что	
+resulta ser	оказался каким-то	
+plazo	период времени	
+la fecha	дата	
+nos reconocieron	нас признали	
+intermediario	посредник	
+<div>el sommier</div>	кровать	
+<div>el colchón</div>	матрас	
+<div>Conseguir</div>	<div>получать, добиваться, достигать&nbsp;</div>	
+<div>despedirse DE</div>	прощаться с кем-то	
+<div>es que&nbsp;</div>	<div>дело в том, что</div>	
+<div>me, te, le faltar</div>	<div>не хватать, отсутствовать</div>	
+<div>No estés triste / ánimo&nbsp;</div>	не грусти	
+<div>Mudarse</div>	переезжать	
+<div>Estar ausente</div>	отсутствовать	
+<div>arreglarse</div>	приводить себя в порядок	
+<div>reunirse, juntarse</div>	встречаться, собираться	
+<div>los juegos de mesa</div>	настольные игры	
+<div>divertirse</div>	развлекаться	
+círculo estrecho	узкий круг	
+<div>&nbsp;<b>sentirse</b>* fuera de lugar</div>	<div><b>чувствовать себя </b>вне своей тарелки</div>	
+<div>posponer</div>	<div>откладывать</div>	
+pobre	бедный	
+estrecho/angosto	узкий	
+<div>encontrarse</div>	находиться	
+<div>prestar atención</div>	обращать внимание	
+pedalear	крутить педали	
+<div>los estudios&nbsp;</div>	исследования	
+<div>un camerino</div>	гримерка	
+<div>en comparación con&nbsp;</div>	в сравнении с	
+<div>las mujeres así&nbsp;</div>	такие женщины	
+<div>una escopeta</div>	ружье	
+<div>disparar</div>	стрелять	
+<div>despertar</div>	будить	
+<div>fuera de</div>	вне	
+<div>dentro de</div>	внутри	
+<div>la publicidad</div>	реклама	
+ordenar	приводить в порядок	
+golpear	бить, ударять	
+bodega	винодельня	
+precioso	красивый	
+los pasaje	пейзаж	
+o sea	иными словами	
+el salario&nbsp;	зарплата	
+<div>&nbsp;tardar XXX en</div>	<div>затрачивать время на выполнение чего-то</div>	
+<div>responder/contesta</div>	отвечать	
+<div>&nbsp;estar sorprendido</div>	быть удивленным	
+<div>agente inmoviliario</div>	риэлтор	
+obrero	рабочий	
+tener apuro	спешить	
+<div>estar lleno</div>	быть сытым	
+es que	дело в том, что	
+urgente	срочный	
+mentir	врать	
+hacer compras	делать покупки	
+<div>la sobrevivencia</div>	выживание	
+quemarse	сгореть, обжеться	
+<div>Estar al pedo</div>	ничего не делать	
+tal cual	так точно	
+<div>confiar EN</div>	доверять кому-то	
+recién	только что	
+<div>el mundo es un pañuelo&nbsp;</div>	мир маленький	
+espeso	густой	
+propio	собственный	
+alquilar	арендовать	
+quedarse	оставаться	
+cortarse	подстричься	
+mientras	пока, тем временем	
+explicar	объяснять	
+morir	умирать	
+el talle&nbsp;	размер одежды	
+<div>nacer</div>	рождаться	
+<div>Esperar</div>	ждать, надеяться	
+<div>pasar(la) bien</div>	проводить хорошо время	
+<div>Soler** + inf</div>	<div>&nbsp;делать что-то по обыкновению</div>	
+<div>dejar DE inf</div>	<div>бросать, прещаться что-то</div>	
+<div>incl<b>uir</b></div>	включать	
+<div>que yo sepa</div>	<div>&nbsp;насколько мне известно</div>	
+<div>acantilado</div>	утес	
+<div>el atardecer</div>	закат	
+<div>superar la esperanza</div>	превосходить ожидания	
+<div>la confianza</div>	доверие	
+palearse	ссориться	
+<div>cualquier</div>	<div>любой&nbsp; &nbsp; ДАЛЬШЕ ИДЕТ СЛОВО КАКОЕ ТО</div>	
+<div>En cuanto a</div>	что касается	
+insectos	насекомые	
+<div>los bichos</div>	жучки паучки	
+<div>apretar*</div>	сжимать	
+<div>me, te, le apetece&nbsp;</div>	хотеться	
+<div>me, te, le pinta</div>	хотеться (тоже)	
+<div>se trata de</div>	речь идет о	
+respirar	дышать	
+<div>llegar a un acuerdo</div>	договориться	
+<div>acordar + inf</div>	<div>договориться что-то делать</div>	
+acordarse de	вспоминать	
+<div>Estoy perfecto, estupendo</div>	круто, здорово	
+<div>un placer&nbsp;</div>	приятно познакомиться	
+<div>posponer/aplazar</div>	откладывать	
+<div>hacerse</div>	становиться	
+sentar	сажать (кого-то)	
+<div>boludez</div>	фигня, ерунда	
+<div>dejar las cosas a medias</div>	бросать несделанным, на полпути	
+<div>&nbsp;XXX tiene pinta&nbsp;</div>	что-то выглядит хорошо	
+<div>llevarse bien/mal</div>	ладить/не ладить	
+<div>pasar la aspiradora</div>	пылесосить	
+<div>cazar</div>	охотиться	
+<div>me quemé con la plancha</div>	обожглась утюгом	
+<div>me, te, le da vergüenza</div>	мне стыдно/стремно/стесняюсь	
+<div>acumular</div>	накапливать	
+<div>sin comer</div>	не поев (любой глагол с отрицанием в прошломм и продолжающемся)	
+<div>igual / de todos modos</div>	все равно, так или иначе	
+<div>caerse</div>	падать	
+<div>aumentar</div>	увеличиваться	
+garca	обманщик	
+<div>hacer trampa</div>	делать татуировки	
+<div>ser tramposo&nbsp;</div>	жулик (быть жуликом)	
+chimenea	камин	
+prolongar	продлевать	
+<div>sano, saludable</div>	полезный для здоровья	
+<div>un búho</div>	сова	
+<div>engordar</div>	потолстеть	
+<div>adelgazar</div>	похудеть	
+<div>Cualquiera, nada que ver</div>	<div>«да ладно тебе!, это совсем не так</div>	
+<div>aprovechar</div>	воспользоваться	
+<div>dar una vuelta</div>	прогуляться	
+<div>hacer senderismo</div>	делать трекинг	
+<div>baldosa</div>	плитка	
+<div>&nbsp;adivinar&nbsp;</div>	догадаться	
+<div>aunque</div>	хотя	
+<div>Papá Noel&nbsp;</div>	санта клаус	
+<div>seguir + gerundio</div>	продолжать что-то делать	
+<div>apurarse</div>	торопиться	
+<div><b>echar una mano</b></div>	помогать	
+<div>está en la punta de la lengua</div>	что-то находится на языке	
+<div>me, te, le toma tiempo preparar la comida</div>	занимает время	
+<div><b>tardo mucho tiempo EN&nbsp;</b></div>	занимает много времени что-то	
+demorar	задерживаться / занимать время / медлить	
+<div>colgar</div>	<div>повесить. сленг. забываться</div>	
+<div>un enchufe</div>	розетка/штекер	
+<div>estar enchufado</div>	иметь связи, попасть куда то по связям	
+<div>tirar de la cadena</div>	смывать&nbsp;	
+<div>fontanero , plomero</div>	<div>сантехник</div>	
+<div><b>&nbsp;tener pereza/ me da pereza (fiaca)</b></div>	<div><b>мне лень, мне влом</b></div>	
+<div>parpadear</div>	мигать, моргать	
+parpedar	мигать, моргать	
+<div>se despega el enchufe</div>	отходит розетка	
+<div>la grieta</div>	трещина	
+tapar	прикрывать	
+<div>balneario</div>	курорт	
+<div>auxilio / socorro&nbsp;</div>	<div>помогите! спасите!</div>	
+<div>una cost<b>umbre</b></div>	привычка	
+<div>acostumbrarse a</div>	<div>привыкнуть к чему-то</div>	
+<div>casi + Presente de Indicativo</div>	<div>почти</div>	
+<div>por separado</div>	по отдельности	
+<div>estar patas arriba</div>	быть вверх тормашками	
+<div>entregar los documentos&nbsp;</div>	<div>отдавать/подавать документы</div>	
+paso	шаг	
+<div>el apio</div>	сельдерей	
+<div>la valija&nbsp;</div>	чемодан	
+<div>la piel&nbsp;</div>	кожа	
+<div>En mi opinión</div>	по моему мнению	
+<div>Supongo que</div>	полагаю что	
+<div>mezclar</div>	смешивать	
+<div>tratar de + inf</div>	пытаться стараться	
+<div>sorprenderse</div>	удивляться	
+<div>préstamo</div>	займ	
+<div>el aprendizaje</div>	изучение	
+<div>se me ocurre&nbsp;</div>	мне приходит в голову	
+<div>&nbsp;al lado</div>	около, сбоку, рядом	
+<div>el árbol de Navidad</div>	новогодняя елка	
+<div>la fiesta</div>	праздник	
+<div>los fuegos artificiales</div>	фейрверки	
+<div>hacer regalos</div>	делать подарки	
+<div>decoración</div>	украшения	
+<div><b>brindar (por)</b></div>	чокаться&nbsp;	
+<div>hacer un brindis&nbsp;</div>	говорить тост	
+<div>desear</div>	желать что-то кому-то	
+<div>que tengas (tengan)</div>	<div>пусть у тебя будет (у вас будет)</div>	
+<div>que estés XXX</div>	<div>чтобы ты был каким-то</div>	
+<div>Circulo estrecho</div>	близкий круг	
+<div>cercano&nbsp;</div>	близкий	
+<div>juzgar</div>	судить	
+<div>la campanada&nbsp;</div>	бой курантов	
+<div>el espumante</div>	шампанское	
+<div>las cenizas</div>	пепел	
+<div>la dirección&nbsp;</div>	направление	
+el ámbito	сфера	
+<div>una tortura</div>	пытка	
+<div><b>granizo</b></div>	град	
+<div>estar quieto</div>	быть в спокойном состоянии	
+<div>sufrir</div>	страдать	
+<div>Establ<b>ecer</b>*, poner un objetivo&nbsp;</div>	<div>поставить цель</div>	
+<div>dorado</div>	золотой	
+<div>aterrador</div>	ужасающий	
+<div>violar&nbsp;</div>	нарушать насиловать	
+<div>susurrar</div>	шептать	
+<div>un port<b>azo</b></div>	увеличительный суфикс (дверище)	
+<div>de vuelta</div>	в обратную сторону	
+<div>AL + INFINITIVO</div>	<div>что сделав (сказав, поев, поспав)</div>	
+<div>&nbsp;lo que</div>	то, что	
+sacar dinero	снять деньги	
+Encontrar	находить, встречать	
+Costar	стоить	
+Mostrar	показывать	
+Pensar	думать	
+el&nbsp;erizo	Еж	
+Las espinas	иголки колючки	
+<strong>Las agujas</strong>	иголки для шиться	
+coser	шить	
+<strong>peluquería / barbería</strong>	парикмахерская / барбершоп	
+<strong>corte de pelo</strong>	стрижка	
+recortar	подстричь, укоротить	
+máquina	машинка для бритья	
+<strong>tijeras</strong>	ножницы	
+degradado / desvanecido / fade	плавный переход	
+redondeado	с округлением	
+más corto	покороче	
+como en la foto	как на фото	
+hierba	трава	
+<strong>patinar en patines</strong>	кататься на роликах	
+sur	юг	
+norte	север	
+Oeste	запад	
+tener sed	хотеть пить	
+tener razón	быть правым	
+tener miedo	обятся	
+tener ganas de + inf	хотеть (сделать что-то)	
+tener que + inf.	нужно, обязан (сделать что-то)	
+<strong>tener prisa</strong>	спешить	
+tener sueño	хотеть спать	
+&nbsp;casi nunca	почти никогда	
+de vez en cuando	время от времени	
+Te recomiendo + infinitivo	рекомендую тебе	
+Es mejor + infinitivo	Лучше + сделать что-то	
+Deberías + infinitivo.	тебе стоит +	
+Conviene + infinitivo.	Желательно …	
+Hace falta + infinitivo	нужно что-то	
+Te aconsejo + infinitivo	Советую тебе	
+Sería bueno + infinitivo	было бы хорошо	
+Vale la pena + infinitivo	Имеет смысл что-то делать	
+de múltiples talentos	обладает множеством талантов&nbsp;	
+Piensa con la cabeza/Usa la cabeza	думай головой	
+Obvio	Очевидно/Конечно	
+Coincido	Согласен	
+medias/calcetines	носки	
+<strong>la malla</strong>	купальник	
+las nueces	орехи	
+en las afueras de	на окраине чего-то	
+<strong>al lado (de)</strong>	рядом с чем-то	
+Qué desastre.	Какой кошмар	
+sucio	грязный	
+Lentes de sol	солнечные очки	
+vender humo	«продавать воздух», т.е. обещать то, чего нет	
+contactos comerciales	деловые контракты	
+El cuarto	комната, спальня	
+no me queda	у меня не осталось почти	
+Todo lo mismo	все одно и тоже	
+<strong>un seguro médico</strong>	медицинская страховка	
+dar ganas de	хочется что-то	
+no dar más	быть на пределе	
+dar miedo / bronca / risa	вызывать страх / злость / смех	
+dar clases	преподавать	
+Avispa alfarera	Оса грязевик	
+arañita común de la casa	домашний паучек	
+esconderse	прятаться	
+prestar atencíon	обращать внимание	
+arder	гореть	
+rajar	трескать	
+sillón mecedor	кресло качалка	
+parlante	музыкальная колонка	
+calefón	газовая колонка	
+subir la música	прибавить музыку	
+bajar la música	убивать музыку	
+arribar	прибыть к кому то	
+estantes	полки книжные	
+<strong>instalar</strong>	установить	
+frazada	теплое одеяло	
+almohada	подушка	
+funda de almohada	наволочка для подушки	
+"<div><strong>enchufe</strong></div>
+<div></div>"	розетка&nbsp;	
+un mueble con estantes	шкаф с полками	
+bombillas	лампочки	
+lámparas de techo	потолочные светильники	
+corte de luz	отключение электричества	
+<strong>luz natural</strong>	натуральный свет	
+lavabo	раковина	
+canilla	кран	
+balanza	напольные весы	
+inodoro	унитаз	
+tapa del inodoro	крышка унитаза	
+mochila	бачок смыва	
+aro	ободок унитаза	
+la consola	игровая приставка	
+flores artificiales	искусственные цветы	
+aire acondicionado	кондиционер	
+el&nbsp;teclado	клавиатура	
+afiche	плакат	
+el quilombo	бардак/хаос (дома)	
+está hecha	находиться в состоянии	
+Despertarse	просыпаться	
+Levantarse	вставать	
+Acostarse	ложиться спать	
+Vestirse	одеваться	
+Ducharse	принимать душ	
+Sentarse	садиться	
+Peinarse	причесываться	
+Lavarse	мыться	
+Maquillarse	краситься	
+Divertirse	веселиться	
+Ponerse	надевать	
+Quitarse	снимать	
+la&nbsp;mesa de luz	тумба у кровати	
+IR + A + INFINITIVO	конструкция простого будущего	
+<strong>ACABAR DE + INFINITIVO</strong>	только что что-то закончил делать (конструкция)	
+<strong>TENER QUE + INFINITIVO</strong>	Конструкция означает что что-то нужно/мочь	
+<strong>PODER + INFINITIVO</strong>	конструкция мочь что-то сделать	
+DEJAR + INFINITIVO	конструкция позволять что-то делать	
+HACER + SUSTANTIVO	Конструкция действия как процесса&nbsp;	
+SE + VERBO	Конструкция обезличенного изменения	
+SEGUIR + GERUNDIO	Конструкция продолжать что-то делать	
+seguir (conjugado) + verbo-ando / -iendo	Продолжать что-то делать (конструкция)	
+haber + hecho / ido / comido / trabajado	Конструкция прошедшего времени (результата)	
+<strong>ESTAR + GERUNDIO&nbsp;</strong>estar + verbo-ando / -iendo	Быть в процессе прямо сейчас (конструкция)	
+ESTAR + ADJETIVO / ESTADO	Состояние и положение (конструкция)	
+AL + INFINITIV	<strong>«когда / при / после того как»</strong> (короткое действие) правило&nbsp;	
+si + hubiera + participio (do)	Прошедшее сослагательное наклонение (если бы в прошлом)	
+la lancha	корабль круизный	
+abrazarse	обниматься	
+<div><b>Valga la redundancia</b></div>	простите за тавтологию	
+la tuya por si acaso	и тебя тудаже на всякий случай	
+violar	нарушать	
+el / la / los / las + más + adjetivo	самый большой (конструкция)	
+(-ísima)	усилиние (огромнейшая) здоровенная и др	
+"<strong>“la cosa es que…”</strong><br>
+o más formal:<br>
+<strong>“el tema es que…”</strong>"	дело в том, что (слова паразиты)	
+la costumbre	привычка	
+acostumbrar	приучить кого-то	
+cobrar	получать взымать что-то (выплату штраф)&nbsp;	
+echar un vistazo	взглянуть	
+ponerse a +inf	приступить к чему-то (ограниченное короткое действие)	
+tiene ganas de	хотеть (иметь энтузиазм) выражение + гл	
+pibe	молодой чувак (я)	
+dar bola	обращать внимание на кого-то	
+por ningún lado	нигде вообще вокруг	
+wacho	чувак	
+al molde	в формочке	
+a la piedra	тонкая	
+sienta bien/mal me cae bien/mal	мне плохо усваивается еда или хорошо (выражения)	
+debajo de	под	
+conocer	<div>&nbsp;посетить, узнать какое-то место 2) знать кого-то</div>	
+<div><b>está </b>soleado</div>	солнечно	
+<div><b>está</b> lloviendo</div>	дождливо	
+<div><b>está </b>despejado</div>	ясно	
+el tribunal	суд	
+"
+
+
+
+
+
+
+<p class=""p1"">aterrador</p>"	ужасный	
+<div>pesebre</div>	сцена рожденния Иисуса	
+lo que	что-то	
+al + infinitivo	что-то сделавши	
+<div>dedicarse</div>	<div>&nbsp;заниматься в жизни (про работу, хобби)</div>	
+<div>el hecho de que ayud<b>á</b>s</div>	<div>факт того, что</div>	
+<div>no me cuadra</div>	<div>у меня не сходится в голове</div>	
+<div>animarse А&nbsp;</div>	<div>решиться, осмелиться</div>	
+<div>feta (fina o gruesa)&nbsp; o trozo</div>	тонкий ломтик и кусочек	
+"<div>la tuya <b>por si acaso</b><b></b></div>
+<div><b>por si acaso/por las dudas</b></div>"	<div>кто-то говорит что-то, что мы не понимаем, на другом языке&nbsp;<b>на всякий случай</b></div><div><b></b></div>	
+<div>el paraguas</div>	зонт	
+<div>parecerse a&nbsp;</div>	<div>быть похожим</div>	
+<div>resulta que</div>	оказалось что	
+<div>tu cara me resulta(parece) familiar</div>	<div>твоё лицо мне кажется знакомым</div>	
+<div>estar al volante</div>	<div>Быть за рулем</div>	
+<div>al toque&nbsp;</div>	сразу же	
+para picar algo	быстрый перекус	
+para un almuerzo rápido	легкий обед (быстрый)	
+Nadie controla	Никто не проверяет	
+te llevás	брать с собой (продукты)	
+Es llenador	Это сытно	
+exprimir jugo	выжимать сок	
+me podés traer el menú?	можешь принести мне меню?	
+¿De qué está hecho este plato?	Из чего сделано это блюдо?	
+¿Qué lleva este plato?	Что входит в это блюдо?	
+la cosa es que…	дело в том что	
+hinchar por	болеть за	
+malabarista	жонглер	
+hacer malabares	жонглировать	
+<strong>clavas</strong>	кегли	
+<div>Echar un vistazo</div>	взглянуть	
+hidratarse	пить воду	
+<div>ligero</div>	легкий	
+<div>productos lácteos</div>	молочные продукты	
+me, te, le sienta/cae bien; mal	<div>усваивается еда, заходит или нет</div>	
+Estar aburrida	скучать	
+<div>anteayer</div>	позавчера	
+<div>el jueves pasado</div>	в прошлый четверг	
+<div>la semana pasada</div>	на прошлой неделе	
+<div>el mes/ el año pasado</div>	в прошлом месяце/году	
+<div>Hace 2 minutos</div>	2 минуты назад	
+<div>Hace mucho/un montón</div>	давно	
+<div>Hace poco</div>	недавно	
+pagar	платить	
+<div>HAY QUE + Infinitivo</div>	"<div>Безличная конструкция долженствования. Мы обращаемся не к кому-то</div>
+<div>конкретно, а в общем: «нужно», «необходимо», «следует»</div>"	
+deber + inf	<div>личная конструкция долженствования. Более строгая и обязательная</div>	
+deber de + inf	должно быть (ты или он что-то делает)	
+<div>Rendir más</div>	вкладываться больше/стараться лучше/работать лучше	
+la esquina	Угол	
+en la parte vieja de	в старой части чего-то	
+la regla	правила	
+Hacer los deberes/la tarea	делать домашнее задание	
+Están muy ocupados como para ayudar	очень заняты чтобы помочь	
+el banquero	банкир	
+desde la mañana hasta la noche	c утра до ночи	
+planchar la ropa	гладить одежду	
+cariñoso	нежный и ласковый	
+agradable	приятный	
+paloma	голубь	
+una historia breve	короткая история	
+está lejos	далеко	
+tardar	задерживаться, опаздывать, занимать время	
+da un beso	<strong>Дай поцелуй</strong>	
+cenar	ужинать	
+en la nevera/en la heladera	в холодильнике	
+deber	должен/нужно	
+el despacho	кабинет	
+Dijo con voz cansada	говорит уставшим голосом	
+<strong>contestar</strong>	отвечать	
+sinceramente	искренне / честно говоря	
+prometer	обещать	
+estar sorprendido	быть удивленным	
+rara (o)	странный	
+la cantidad exacta	точная сумма / точное количество	
+insistir	настаивать / упорствовать	
+calcular	считать	
+secar	вытирать	
+las lágrimas	слезы	
+al día siguente	На следующий день	
+aparecer	появляться	
+<div>una muela de juicio</div>	зуб мудрости	
+<div>un lado&nbsp;</div>	сторона	
+<div>cariño&nbsp;</div>	нежность	
+<div>picar&nbsp;</div>	<div>1) колется, чешется, 2) кусать</div>	
+<div>la garrapata</div>	<div>&nbsp;клещ</div>	
+<div>diversificar</div>	разнообразить	
+hongos	грибы	
+<div>higo</div>	инжир	
+<div>las legumbres</div>	бобовые	
+<div>un menú ejecutivo</div>	бизнес ланч	
+<div>No me cierran los números/cálculos</div>	<div>у меня не сходятся цифры/рассчет</div>	
+<div>enseguida</div>	тотчасже	
+<div>acompañar</div>	подавать еду с чем-то	
+<div>la propina</div>	чаевые	
+<div>huele a</div>	пахнет чем-то	
+<div>estropearse, pudrirse, echarse a perder</div>	испортиться	
+<div>vencido</div>	просроченный	
+en lugar de/en vez de	<div>вместо чего-то</div>	
+<div>la resaca&nbsp;</div>	похмелье	
+<div>ser canchero</div>	крутой или хороший в чем-то	
+aliñar	заправлять (салат)	
+amasar	месить (тесто)	
+asar	жарить и запекать на огне	
+batir	взбивать	
+colar	процеживать что-то	
+cortar	резать	
+empanar	панировать	
+exprimir	выжимать	
+freír	жарить в масле	
+hervir	варить и кипятить	
+hornear	запекать в духовке	
+moler	молоть	
+limpiar	чистить	
+pelar	чистить кожуру	
+picar	мелко резать	
+rallar	тереть на терке	
+rebanar	нарезать ломтиками	
+rebozar	обваливать в кляре или панировке	
+remover	помешивать	
+saltear	обжаривать быстро на быстром огне	
+la página	страница	
+la cáscara	кожура оболочка	
+la resaca	похмелье	
+<div>&nbsp;en lugar de/en vez de</div>	вместо чего-то	
+<div>mientras tanto</div>	между тем, тем временем	
+<div>SIN + INFINITIVO</div>	не сделав что-то	
+joda	вечеринка прикол или шутка	
+<div>según</div>	согласно	
+las fuentes	источник (любой)	
+<div>confianzudo&nbsp;</div>	тот кто втирается в доверие	
+<div>licuado</div>	коктейль с молоком	
+<div>rebozado</div>	в кляре	
+<div>relativamente</div>	относительно	
+<div>intoxicarse</div>	отравиться	
+<div>pegatina</div>	стикер	
+<div>el trigo</div>	пшеница	
+<div>&nbsp;No tengo con quien</div>	мне не с кем что-до делать	
+<div>me estoy haciendo pis</div>	хочу писать	
+<div>acercarse</div>	приблежаться и подходить	
+<div>tirar la casa por la ventana&nbsp;</div>	жить на широкую ногу и тратить бабки	
+Un rollo de papel higiénico	рулон бумаги туалетной	
+Me da asco eso	меня от этого воротит	
+¡Qué asco!	на вкус что-то ужасное	
+frito	жареный	
+cocido	приготовленный или готовый	
+hervido	вареный	
+al vapor	на пару	
+A ver, te lo explico	как бы тебе это объяснить	
+esforzarse	прилагать усилия, стараться	
+Me costó un ojo de la cara.	мне это стоило бешеных денег / очень дорого	
+un pedido	просьба, запрос	
+valorar	ценить	
+Me cuesta	Мне стоило это усилий	
+<div>Me cuesta creer que es verdad</div>	<div>Мне сложно поверить, что это правда</div>	
+<div>Te importa si</div>	ты не против, если (что-то сделаю)	
+doler	болеть (про часть тела)	
+interesar	<div>интересовать</div>	
+<div><b>Quedar</b></div>	<div>оставаться, подходить про одежду</div>	
+Sentar	<div>подходить про одежду</div>	
+<div><b>Apetecer</b></div>	хотеть что-то	
+molestar	<div>мешать, беспокоить, надоедать</div>	
+<div><b>Preocupar</b></div>	<div>беспокоить</div>	
+<div><b>Importar</b></div>	<div>волновать, иметь важность, быть против, возражать</div>	
+<div><b>Salir</b></div>	<div>получаться, что-то выходит хорошо/плохо</div>	
+La cabeza	голова	
+La cara	лицо	
+El cuello	шея	
+El hombro	плечо	
+La mano	рука кисть	
+Los dedos	пальцы	
+El pecho	грудь	
+El codo	локоть	
+El cuerpo	тело	
+La espalda	спина	
+La muñeca	запястье	
+La palma	ладонь	
+Los pulmones	легкие	
+El estómago	желудок	
+<strong>La pierna</strong>	нога	
+La rodilla	колена	
+El tobillo	лодыжка	
+El pie	ступня	
+el muslo	бедро	
+el gemelo	икра	
+<div>Te duele/n</div>	<div>У тебя болит/болят</div>	
+<div>Tengo dolor de</div>	<div>У меня болит…</div>	
+<div>Sentirse bien/mal&nbsp;</div>	<div>Чувствовать себя</div>	
+<div>Encontrarse bien/mal</div>	<div>Чувствовать себя</div>	
+<div>Pedir un turno para…</div>	<div>Взять номерок, записаться к</div>	
+tener que ver	иметь связь с чем-то (как связано)?	
+Según	согласно чему-то	
+Acompañar	провожать	
+Despedir(se)	прощаться / провожать	
+<strong>¿cuánto tiempo llevás con…?</strong>	как долго у тебя…	
+<strong>me duele la garganta</strong>	болит горло	
+Un regalo con lazo	Подарок с бантом	
+moño	Бант, пучок, узел	
+Hacerse un moño	Сделать пучок с бантом (про волосы)	
+moñito	Бантик маленьки	
+<div>&nbsp;me, te, le pinta&nbsp;</div>	хотеться	
+<div>el pedido</div>	просьба/заказ	
+<div>pancarta</div>	баннер	
+<div>El pez se pudre por la cabeza</div>	Рыба гниет с головы	
+<div>a causa de&nbsp;</div>	по причине	
+<div>me gusta = me agrada</div>	мне нравится	
+<div>tener que ver&nbsp;</div>	<div>иметь связь&nbsp;</div>	
+<div>parecerse* a</div>	быть похожим на	
+<div>lograr, alcanzar, conseguir</div>	<div>достигать, добиваться</div>	
+<div>sorprendido</div>	удивленный	
+<div>el resto&nbsp;</div>	остальное	
+<div>afición</div>	хобби	
+<div>desafiante&nbsp;</div>	бросать вызов	
+<div>Modelaje</div>	моделирование	
+<div>la mentira</div>	ложь	
+<div>el futuro es incierto</div>	будущее не определено	
+<div>seguir + gerundio&nbsp;</div>	продолжать что-то делать	
+<div>Perder el hilo</div>	потерять связь	
+interrumpir	перебивать	
+cucuruchos	рожки / кулёчки / вафельные рожки	
+sueltos	отдельные, не в наборе	
+Te llamo más tarde	Я наберу позже	
+Después te pego un llamado.	я перезвоню (аргентинский вариант)	
+pegar + sustantivo	сделать быстрое действие	
+el pico del pato	клюв утки	
+<strong>Tiene un moñito en el pelo.</strong>	У неё бантик в волосах	
+&nbsp;lazo	бант для подарка	
+el traje	костюм	
+cortado	эспрессо и молоко	
+lágrima	много молока и кофе	
+Tenga cuidado	будь осторожен	
+Se rompió recién.	Только что сломалось	
+Está roto/a	Сломано (состояние)	
+doler + artículo + parte del cuerpo	болит + как+ часть тела	
+ocurrir	происходить	
+caprichos	капризы	
+en el coso	«в этой штуке» (разговорно)	
+La cuenta separada	счет отдельно	
+En tu plato mandás vos	В своей тарелке ты хозяин / решаешь ты»	
+mandar	рулить, решать	
+licencia médica	больничный	
+<strong>licencia de conducir</strong>	водительские права	
+la inestabilidad económica	экономическая нестабильность	
+la falta de compromiso	отсутствие ответственности	
+poco común	редкий, нечастый	
+algo desfavorable	неблагоприятное	
+los rumores	слухи	
+las apariencias	оболочка	
+las redes sociales	социальные сети	
+chismes	сплетни	
+tener envidia	испытывать зависть	
+les da envidia	им становится завидно	
+sin días libres	без выходных	
+tan rápido que	так быстро, что...	
+campera	куртка	
+campera de cuero	кожаная куртка	
+campera impermeable	непромокаемая куртка	
+campera inflable / acolchada	пуховик	
+<strong>campera con capucha</strong>	куртка&nbsp;с капюшоном	
+¿Te incomoda cuando…?	Тебе некомфортно, когда…?	
+<strong>Te fastidia cuando…?</strong>	Тебя бесит, когда…?	
+no se me va	не проходит (про боль)	
+desde hace varios días	уже несколько&nbsp; дней	
+el estómago	желудок	
+especialmente cuando como alimentos grasos	особенно когда я ем жирную пищу.	
+hinchazón / distensión abdomina	вздутие живота	
+una acidez constante	постоянная изжога	
+tengo problemas para digerir los alimentos.	у меня проблемы с перевариванием пищи	
+transferir	перевести	
+billetera	кошелек	
+<div>enfrentarse con</div>	сталкиваться с	
+conocido	знакомый	
+Ella fue a una reunión	Она пошла на встречу	
+<div>me, te, le DA asco</div>	мне отвратительно что-либо от чего либо	
+el sueño	сон	
+<div>volverse loco</div>	сходить с ума	
+<div>el conocimiento</div>	знание	
+afectar	влиять плохо	
+liberarse	высвобожаться	
+las proteínas	белки	
+<div>los intereses comunes</div>	общие интересы	
+<div>un silbato</div>	свисток	
+carrera	забег	
+pista de correr	беговая дорожка	
+<div>entrenadores</div>	тренеры	
+<div>las competiciones</div>	соревнования	
+dirigirse	обращаться к кому-то	
+un estadio	стадион	
+Uno con el otro	друг с другом	
+Pestar atencíon	уделять внимание	
+los pasajes	билеты на транспорт	
+campo/area	сфера деятельности	
+inflamación	опухоль	
+ampolla	пузырь	
+una quemadura	ожог	
+tener una contractura	иметь защемление	
+<div>la piel sensible</div>	чувствительная кожа	
+seca	сухая	
+grasosa	жирная	
+aliviar	облегчать	
+transpirar	потеть	
+<div>se ME hincharon&nbsp;</div>	у меня опухли	
+<div>Perder el hilo&nbsp;</div>	потерять связь	
+<div>La vesícula</div>	желчный	
+influir en	оказывать влияние	
+desafiante	бросающий вызов	
+el resto	остальное	
+parecerse a	быть похожим на	
+a causa de	по причине	
+me da lo mismo	мне все равно	
+me da igual	мне без разницы	
+<div>Da el volumen a lo que querés decir</div>	добавь звук своим словам	
+hospital	больница	
+Escuela	школа	
+Jardín de infantes	детский сад	
+Iglesia	церковь	
+Peluquería	парикмахерская	
+Plaza / plazoleta	лощадь / маленькая площадь	
+<strong>Municipalidad</strong>	мэрия	
+Vereda	тротуар	
+Biblioteca	библиотека	
+Supermercado	супермаркет	
+Casco histórico	исторический центр	
+<strong>Estación de trenes</strong>	железнодорожная станция	
+Terminal de colectivos	автовокзал	
+Monumento	памятник	
+Comisaría	Полицейский участок	
+Calle de una sola mano	улица с односторонним движением	
+Calle de doble mano	улица с двусторонним движением	
+Shopping	торговый центр	
+Estación de subte	станция метро	
+Banco	банк	
+Cajero automático	банкомат	
+<strong>Estacionamiento</strong>	парковка	
+Estación de servicio	заправка	
+Avenida	проспект	
+Parada de colectivo	автобусная остановка	
+Planta / Fábrica	завод или фабрика	
+<strong>¿Dónde queda…?</strong>	где находится?	
+¿Sabés dónde está…?	Ты знаешь где?	
+<strong>¿Cómo llego a…?</strong>	как мне добраться до?	
+Derecha&nbsp;	направо	
+Izquierda	налево	
+<strong>Derecho / Todo derecho</strong>	прямо	
+A la vuelta	за углом	
+A dos cuadras	в двух квадрах	
+Está cerca	близко	
+Está lejos	далеко	
+<strong>Cruzar la calle</strong>	перейти улицу	
+Semáforo	светофор	
+<strong>Esquina</strong>	угол	
+Subir / bajar	подняться / спуститься	
+Doblar	повернуть	
+Seguir derecho	идти прямо	
+Tomar el colectivo	сесть в автобус	
+Bajarse en	выйти на	
+Enfrente de	напротив	
+Al lado de	рядом с	
+<strong>Entre</strong>	между	
+Cerca de	рядом	
+Lejos de	далеко от	
+Sobre	на (улице)	
+la calle	улица	
+Las vías	рельсы	
+Las vías del tren	железнодорожные рельсы	
+Paso a nivel	железнодорожный переезд	
+<strong>Barrera</strong>	шлагбаум	
+Cruzar las vías	перейти рельсы	
+Señal ferroviaria	железнодорожный сигнал	
+El tren está pasando	поезд проходит	
+Tocar la bocina	гудеть (о поезде)	
+transporte ferroviario	железнодорожный транспорт	
+cruce de miradas	обмен взглядами	
+cruce de datos	сопоставление данных	
+no tuve tiempo de leer / 1 no alcancé A leer	не успевать что-то (читать например)	
+no me dio tiempo	не успевать ничего	
+<div>tal vez, puede ser, capaz</div>	может быть	
+<div>ponerse</div>	надевать	
+parado	стоящий	
+<div><b>zafable</b></div>	сносный	
+<div><b>daño</b></div>	вред, урон	
+<div>un corte de pelo</div>	стрижка	
+<div>en el primer plano</div>	на первом плане	
+<div>resolvé tus problemas, luego escribime</div>	решите свои проблемы а затем пишите мне	
+<div><b>&nbsp;una queja</b></div>	жалоба	
+<div><b>tratar de inf</b></div>	пытаться что-то сделать	
+<div>llegar al compromiso</div>	<div>достичь компромиса</div>	
+<div>descontento&nbsp;</div>	недовольный	
+<div><b>pelear</b></div>	ругаться	
+<div>la vereda</div>	тротуар	
