@@ -17,18 +17,16 @@ SYSTEM = """Ты редактор микро-уроков аргентинско
 Схема JSON:
 {
   "term": "tomacorriente",
+  "pos_ru": "сущ., м.р.",
   "translation_ru": "розетка",
   "examples": [
-    {"es": "Necesito un tomacorriente para mi laptop.", "ru": "Мне нужна розетка для ноутбука."},
-    {"es": "El tomacorriente está suelto.", "ru": "Розетка болтается."},
-    {"es": "No tengo un tomacorriente libre.", "ru": "У меня нет свободной розетки."}
+    {"es": "...", "ru": "..."}
   ],
   "collocations": [
-    {"es": "tomacorriente de pared", "ru": "настенная розетка"},
-    {"es": "tomacorriente múltiple", "ru": "удлинитель / сетевой фильтр"}
+    {"es": "...", "ru": "..."}
   ],
-  "note_ru": "Короткая полезная заметка (1–2 предложения) + при необходимости разговорный вариант в AR.",
-  "image_prompt_en": "A simple friendly illustration that clearly shows the meaning, no text"
+  "note_ru": "...",
+  "image_prompt_en": "..."
 }
 """
 
