@@ -1,3 +1,4 @@
+import os
 import json
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
@@ -28,13 +29,11 @@ def save_state(state):
 
 
 def stable_sort(items):
-    # стабильный порядок, чтобы добавление новых карточек не ломало всё
     return sorted(items, key=lambda x: (x.get("term", "").lower(), x.get("translation", "").lower()))
 
 
 def should_post(kind: str, now_ba: datetime) -> bool:
     h = now_ba.hour
-
     if kind == "word":
         return h % 2 == 0
     if kind == "phrase":
@@ -47,57 +46,73 @@ def should_post(kind: str, now_ba: datetime) -> bool:
 def pick_next(items, index_key: str, state: dict):
     idx = int(state.get(index_key, 0))
     if not items:
+        print(f"[pick_next] No items for {index_key}")
         return None, idx
 
     if idx >= len(items):
-        # закончились — сигнал на fallback
+        print(f"[pick_next] Reached end for {index_key}: idx={idx}, len={len(items)} -> fallback")
         return None, idx
 
     item = items[idx]
     state[index_key] = idx + 1
+    print(f"[pick_next] Picked {index_key}: idx={idx} term={item.get('term','')[:60]!r}")
     return item, idx
 
 
 def maybe_daily_check(state: dict, now_ba: datetime):
-    # 1 раз в день, например в 09:00 BA
     if now_ba.hour != 9:
         return None
 
     today = now_ba.strftime("%Y-%m-%d")
     if state.get("last_daily_check_date") == today:
+        print("[daily_check] already posted today")
         return None
 
     state["last_daily_check_date"] = today
+    print("[daily_check] generating daily_check")
     return generate_fallback("daily_check")
 
 
 def post_card(card: dict):
     caption = format_caption(card)
+    img_ok = False
 
-    ok = False
     try:
-        ok = generate_image(card.get("image_prompt_en", "simple illustration"), OUT_IMG, 1024, 1024)
-    except Exception:
-        ok = False
+        img_prompt = card.get("image_prompt_en") or "simple illustration"
+        img_ok = generate_image(img_prompt, OUT_IMG, 1024, 1024)
+        print(f"[image] ok={img_ok}")
+    except Exception as e:
+        print(f"[image] exception: {e!r}")
+        img_ok = False
 
-    if ok:
+    # Важно: если телега вернёт ошибку — пусть упадёт и покажет лог
+    if img_ok:
+        print("[tg] sending photo...")
         send_photo(caption, OUT_IMG)
     else:
+        print("[tg] sending message...")
         send_message(caption)
+
+    print("[tg] sent.")
 
 
 def main():
+    force = os.getenv("FORCE_POST", "").strip() == "1"
+
     now_ba = datetime.now(BA_TZ)
+    print(f"[time] now BA: {now_ba.isoformat()}  force={force}")
+
     state = load_state()
 
-    # 1) Daily check (раз в день)
-    daily = maybe_daily_check(state, now_ba)
-    if daily:
-        post_card(daily)
-        save_state(state)
-        return
+    # 1) Daily check
+    if not force:
+        daily = maybe_daily_check(state, now_ba)
+        if daily:
+            post_card(daily)
+            save_state(state)
+            return
 
-    # 2) Загружаем Anki
+    # 2) Load Anki
     all_items = load_anki_export_tsv(DECK_PATH)
     all_items = [x for x in all_items if (x.get("translation") or "").strip()]
     all_items = stable_sort(all_items)
@@ -106,22 +121,29 @@ def main():
     phrases = [x for x in all_items if x.get("kind") == "phrase"]
     grammar = [x for x in all_items if x.get("kind") == "grammar"]
 
-    # 3) Выбираем что постить в этот час
-    #    Важно: если совпало несколько (например 0:00) — постим по очереди:
+    print(f"[anki] total={len(all_items)} words={len(words)} phrases={len(phrases)} grammar={len(grammar)}")
+
+    # 3) Decide what to post
     to_post = []
-    if should_post("word", now_ba):
-        to_post.append("word")
-    if should_post("phrase", now_ba):
-        to_post.append("phrase")
-    if should_post("grammar", now_ba):
-        to_post.append("grammar")
+    if force:
+        # ручной запуск — всегда постим 1 штуку (слово)
+        to_post = ["word"]
+    else:
+        if should_post("word", now_ba):
+            to_post.append("word")
+        if should_post("phrase", now_ba):
+            to_post.append("phrase")
+        if should_post("grammar", now_ba):
+            to_post.append("grammar")
+
+    print(f"[plan] to_post={to_post}")
 
     if not to_post:
-        # Нечего постить в этот час — просто сохраняем state (не обязательно)
+        print("[plan] Nothing scheduled this hour. Exiting.")
         save_state(state)
         return
 
-    # 4) По каждому типу: берём из Anki по индексу, иначе fallback генерация
+    # 4) Post each kind
     for kind in to_post:
         if kind == "word":
             item, _ = pick_next(words, "word_index", state)
@@ -129,7 +151,6 @@ def main():
                 card = build_post(item["term"], item["translation"], item["kind"], item.get("tags", ""))
             else:
                 card = generate_fallback("word")
-
             post_card(card)
 
         elif kind == "phrase":
@@ -138,7 +159,6 @@ def main():
                 card = build_post(item["term"], item["translation"], item["kind"], item.get("tags", ""))
             else:
                 card = generate_fallback("phrase")
-
             post_card(card)
 
         elif kind == "grammar":
@@ -147,10 +167,10 @@ def main():
                 card = build_post(item["term"], item["translation"], item["kind"], item.get("tags", ""))
             else:
                 card = generate_fallback("grammar")
-
             post_card(card)
 
     save_state(state)
+    print("[done] state saved")
 
 
 if __name__ == "__main__":
