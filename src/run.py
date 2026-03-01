@@ -73,27 +73,41 @@ def maybe_daily_check(state: dict, now_ba: datetime):
     return generate_fallback("daily_check")
 
 
+from src.image_card import make_text_card
+
 def post_card(card: dict):
     caption = format_caption(card)
-    img_ok = False
 
+    term = (card.get("term") or "").strip()
+    tr = (card.get("translation_ru") or "").strip()
+    pos = (card.get("pos_ru") or "").lower()
+
+    # для грамматики/суффиксов — делаем локальную карточку (всегда)
+    force_local = ("граммат" in pos) or ("суффикс" in pos) or term.startswith("Грамматика:")
+
+    if force_local:
+        subtitle = tr[:60] if tr else ""
+        make_text_card(term, subtitle, OUT_IMG, size=(1024, 1024))
+        send_photo(caption, OUT_IMG)
+        return
+
+    # иначе пробуем генерацию внешним сервисом
+    ok = False
     try:
         img_prompt = card.get("image_prompt_en") or "simple illustration"
-        img_ok = generate_image(img_prompt, OUT_IMG, 1024, 1024)
-        print(f"[image] ok={img_ok}")
+        ok = generate_image(img_prompt, OUT_IMG, 1024, 1024)
+        print(f"[image] ok={ok}")
     except Exception as e:
         print(f"[image] exception: {e!r}")
-        img_ok = False
+        ok = False
 
-    # Важно: если телега вернёт ошибку — пусть упадёт и покажет лог
-    if img_ok:
-        print("[tg] sending photo...")
+    if ok:
         send_photo(caption, OUT_IMG)
     else:
-        print("[tg] sending message...")
-        send_message(caption)
-
-    print("[tg] sent.")
+        # если внешняя генерация упала — тоже делаем локальную карточку (фолбек)
+        subtitle = tr[:60] if tr else ""
+        make_text_card(term, subtitle, OUT_IMG, size=(1024, 1024))
+        send_photo(caption, OUT_IMG)
 
 
 def main():
