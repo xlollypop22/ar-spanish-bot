@@ -17,9 +17,15 @@ def format_caption(card: dict) -> str:
     term = (card.get("term") or "").strip()
     tr = (card.get("translation_ru") or "").strip()
     note = (card.get("note_ru") or "").strip()
+    pos = (card.get("pos_ru") or "").strip()
 
     lines = []
-    lines.append(f"🧉 <b>Слово (AR):</b> <b>{term}</b>")
+
+    header = f"🧉 <b>Слово (AR):</b> <b>{term}</b>"
+    if pos:
+        header += f" <i>({pos})</i>"
+    lines.append(header)
+
     if tr:
         lines.append(f"Это значит: <b>{tr}</b>")
     lines.append("")
@@ -61,10 +67,6 @@ def format_caption(card: dict) -> str:
         lines.append(note)
 
     text = "\n".join(lines).strip()
-
-    # Telegram caption limit ~1024 chars for photos, but message limit is larger.
-    # Мы делаем универсально: при фото обрежется на стороне Telegram,
-    # поэтому здесь держим безопасно около 3500.
     return text[:3500]
 
 
