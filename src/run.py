@@ -72,7 +72,6 @@ def maybe_daily_check(state: dict, now_ba: datetime):
     print("[daily_check] generating daily_check")
     return generate_fallback("daily_check")
 
-
 from src.image_card import make_text_card
 
 def post_card(card: dict):
