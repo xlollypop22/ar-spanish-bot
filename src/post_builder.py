@@ -2,46 +2,54 @@ import json
 import re
 from .groq_text import groq_chat
 
+# --- Prompting / schema -------------------------------------------------------
+
 SYSTEM = """Ты редактор микро-уроков аргентинского испанского (Buenos Aires).
 Пиши просто для новичка. Примеры — естественные, бытовые, без странных конструкций.
 
-Важно:
-- Давай перевод на русский ДЛЯ КАЖДОГО примера и ДЛЯ КАЖДОЙ коллокации.
-- Не задавай "¿Tenés X?" для прилагательных.
-- Если term — существительное: примеры с артиклем и естественными ситуациями.
-- Если term — фраза: сделай мини-диалог 2 реплики (но всё равно 3 примера).
-- Не выдумывай "школьные" фразы.
+Главные правила:
+- Всегда давай перевод на русский ДЛЯ КАЖДОГО примера и ДЛЯ КАЖДОЙ коллокации.
+- Не делай шаблоны типа "¿Tenés X?" для прилагательных.
+- Не делай бессмысленные фразы вида "Necesito copado/a".
+- Если term — существительное: используй артикль (el/la/un/una) в примерах, если это естественно.
+- Если term — фраза: сделай жизненные реплики (можно мини-диалог), но всё равно 3 примера.
+- Если term — грамматика/суффикс: примеры должны показывать правило; note_ru — коротко и практично.
 
 Верни СТРОГО один JSON-объект без текста вокруг, без markdown, без ```.
 
 Схема JSON:
 {
   "term": "tomacorriente",
-  "pos_ru": "сущ., м.р.",
+  "pos_ru": "сущ., м.р." | "гл." | "прил." | "нареч." | "фраза" | "грамматика" | "суффикс",
   "translation_ru": "розетка",
   "examples": [
-    {"es": "...", "ru": "..."}
+    {"es": "Necesito un tomacorriente para mi laptop.", "ru": "Мне нужна розетка для ноутбука."},
+    {"es": "El tomacorriente está suelto.", "ru": "Розетка болтается."},
+    {"es": "No tengo un tomacorriente libre.", "ru": "У меня нет свободной розетки."}
   ],
   "collocations": [
-    {"es": "...", "ru": "..."}
+    {"es": "tomacorriente de pared", "ru": "настенная розетка"},
+    {"es": "tomacorriente múltiple", "ru": "удлинитель / сетевой фильтр"}
   ],
-  "note_ru": "...",
-  "image_prompt_en": "..."
+  "note_ru": "Короткая полезная заметка (1–2 предложения). Если есть — добавь разговорный вариант в AR.",
+  "image_prompt_en": "A simple friendly illustration that clearly shows the meaning, no text"
 }
+
+Важно: JSON должен быть валидный. Внутри строк не используй необработанные переносы строк.
 """
 
 JSON_RE = re.compile(r"\{.*\}", re.DOTALL)
 
 
 def _extract_json(text: str) -> str:
+    """Tries to extract a single JSON object from model output."""
     if not text:
         return ""
     t = text.strip()
 
-    # иногда модель оборачивает в ```json ... ```
+    # Sometimes wrapped in ```json ... ```
     if t.startswith("```"):
         t = t.strip("`").strip()
-        # убрать возможное "json" в первой строке
         if t.lower().startswith("json"):
             t = t[4:].strip()
 
@@ -50,42 +58,70 @@ def _extract_json(text: str) -> str:
 
 
 def _normalize(card: dict) -> dict:
-    """Подстраховка: приводим к ожидаемой структуре, чтобы форматтер не падал."""
+    """Defensive normalization so formatter doesn't break."""
     card = card or {}
     card.setdefault("term", "")
+    card.setdefault("pos_ru", "")
     card.setdefault("translation_ru", "")
     card.setdefault("note_ru", "")
-    card.setdefault("image_prompt_en", "A simple illustration, no text")
+    card.setdefault("image_prompt_en", "A simple friendly illustration, no text")
 
+    # examples: [{es,ru}, ...]
     ex = card.get("examples") or []
-    # допускаем, если модель вернула список строк — конвертируем
     fixed_ex = []
     for e in ex:
         if isinstance(e, dict):
-            fixed_ex.append({"es": (e.get("es") or "").strip(), "ru": (e.get("ru") or "").strip()})
+            fixed_ex.append(
+                {"es": (e.get("es") or "").strip(), "ru": (e.get("ru") or "").strip()}
+            )
         elif isinstance(e, str):
             fixed_ex.append({"es": e.strip(), "ru": ""})
-    card["examples"] = fixed_ex[:3]
+    card["examples"] = [x for x in fixed_ex if x.get("es")] [:3]
 
+    # collocations: [{es,ru}, ...]
     col = card.get("collocations") or []
     fixed_col = []
     for c in col:
         if isinstance(c, dict):
-            fixed_col.append({"es": (c.get("es") or "").strip(), "ru": (c.get("ru") or "").strip()})
+            fixed_col.append(
+                {"es": (c.get("es") or "").strip(), "ru": (c.get("ru") or "").strip()}
+            )
         elif isinstance(c, str):
             fixed_col.append({"es": c.strip(), "ru": ""})
-    card["collocations"] = fixed_col[:4]
+    card["collocations"] = [x for x in fixed_col if x.get("es")] [:4]
+
+    # Hard trim to avoid Telegram caption issues
+    card["term"] = card["term"][:120]
+    card["pos_ru"] = card["pos_ru"][:40]
+    card["translation_ru"] = card["translation_ru"][:200]
+    card["note_ru"] = card["note_ru"][:600]
+    card["image_prompt_en"] = card["image_prompt_en"][:400]
 
     return card
 
 
-def build_post(term: str, translation_ru: str, kind: str, tags: str = ""):
-    payload = {"term": term, "translation_ru": translation_ru, "kind": kind, "tags": tags}
+# --- Public API ---------------------------------------------------------------
 
-    # 1) первая попытка
+def build_post(term: str, translation_ru: str, kind: str, tags: str = "") -> dict:
+    """
+    Build a rich post card using Groq:
+    - bilingual examples and collocations
+    - pos_ru (part of speech / type)
+    - safe JSON extraction + retry
+    """
+    payload = {
+        "term": term,
+        "translation_ru": translation_ru,
+        "kind": kind,
+        "tags": tags,
+        "locale": "es-AR",
+        "audience": "beginner",
+    }
+
+    # Attempt 1
     messages = [
         {"role": "system", "content": SYSTEM},
-        {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}
+        {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
     ]
     out1 = groq_chat(messages, temperature=0.6)
     raw1 = (out1 or "").strip()
@@ -97,12 +133,15 @@ def build_post(term: str, translation_ru: str, kind: str, tags: str = ""):
         except json.JSONDecodeError:
             pass
 
-    # 2) вторая попытка — жёсткая починка
+    # Attempt 2: strict repair
     messages2 = [
         {"role": "system", "content": SYSTEM},
         {"role": "user", "content": json.dumps(payload, ensure_ascii=False)},
         {"role": "assistant", "content": raw1[:4000] if raw1 else ""},
-        {"role": "user", "content": "Ты ответил невалидным JSON или не по схеме. Верни ТОЛЬКО один JSON по схеме. Без пояснений, без markdown."}
+        {
+            "role": "user",
+            "content": "Твой ответ невалидный JSON или не по схеме. Верни ТОЛЬКО один JSON строго по схеме. Без пояснений, без markdown.",
+        },
     ]
     out2 = groq_chat(messages2, temperature=0.2)
     raw2 = (out2 or "").strip()
