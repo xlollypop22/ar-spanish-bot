@@ -25,3 +25,9 @@ def send_photo(caption: str, photo_path: str):
         data = {"chat_id": TG_CHAT_ID, "caption": caption, "parse_mode": "HTML"}
         r = requests.post(url, data=data, files=files, timeout=60)
     r.raise_for_status()
+
+def send_message(text: str):
+    url = f"https://api.telegram.org/bot{TG_BOT_TOKEN}/sendMessage"
+    data = {"chat_id": TG_CHAT_ID, "text": text, "parse_mode": "HTML"}
+    r = requests.post(url, data=data, timeout=60)
+    r.raise_for_status()
